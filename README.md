@@ -2,14 +2,13 @@
 
 My [Claude Code](https://claude.com/claude-code) skills, kept here so they install the same way on every machine.
 
-The centrepiece is **[`engineering-loop`](engineering-loop/SKILL.md)**: a router for substantive engineering work. It picks the smallest workflow that will do the job — direct edit, disciplined implementation, a design interrogation, or a strict structural review — and adapts when evidence changes what's known. The other three skills are what it routes into.
+The centrepiece is **[`engineering-loop`](engineering-loop/SKILL.md)**: a router for substantive engineering work. It picks the smallest workflow that will do the job — direct edit, disciplined implementation, a design interrogation, or a strict structural review — and adapts when evidence changes what's known.
 
 | Skill | What it does |
 | --- | --- |
 | [`engineering-loop`](engineering-loop/SKILL.md) | Routes engineering work between direct implementation, `poteto-mode`, `grill-with-docs`, and `thermo-nuclear-code-quality-review`. Owns ADR discovery, status interpretation, and completion checks. |
-| [`grill-with-docs`](grill-with-docs/SKILL.md) | A relentless design interview that writes the docs as it goes. Calls `grilling` and `domain-modeling`. |
-| [`grilling`](grilling/SKILL.md) | Interrogates a plan or decision as a design tree until the thinking holds up. |
-| [`domain-modeling`](domain-modeling/SKILL.md) | Builds and sharpens a project's domain model: `CONTEXT.md`, ADRs, canonical terminology. |
+
+The repo also carries [`grill-with-docs`](grill-with-docs/SKILL.md), [`grilling`](grilling/SKILL.md), and [`domain-modeling`](domain-modeling/SKILL.md), because `engineering-loop` routes into them by name — install them together or the routing breaks.
 
 ## How it routes
 
