@@ -51,6 +51,24 @@ Do not make the user choose between workflows.
 
 Once invoked, own the workflow through completion unless a decision genuinely requires user input.
 
+## Communication
+
+Be concise and direct.
+
+Answer the question immediately.
+
+Use the fewest words needed without losing important information.
+
+Avoid repetition, unnecessary context, long introductions, and summaries unless requested.
+
+Prefer short paragraphs or bullets.
+
+For simple questions, answer in 1–3 sentences.
+
+This governs how you report, not what you verify.
+
+The completion checks in this skill still apply. Report their results briefly rather than omitting them.
+
 ---
 
 # 1. Hydrate
